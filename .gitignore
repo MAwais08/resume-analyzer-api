@@ -49,3 +49,27 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+
+
+
+
+# -------------------------------
+# Python & Flask project ignores
+# -------------------------------
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Temporary files
+*.log
+tmp/
+
